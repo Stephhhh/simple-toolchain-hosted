@@ -76,6 +76,14 @@
             "type": "text",
             "readonly": false,
             "title": {
+                "$ref": "Owner"
+            },
+            "key": "prod-app-name"
+        },
+        {
+            "type": "text",
+            "readonly": false,
+            "title": {
                 "$ref": "#/messages/deploy.appName"
             },
             "key": "prod-app-name"
