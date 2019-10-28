@@ -76,7 +76,7 @@
             "type": "text",
             "readonly": false,
             "title": {
-                "$ref": "Owner"
+                "Owner"
             },
             "key": "prod-app-name"
         },
