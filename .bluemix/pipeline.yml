@@ -11,11 +11,6 @@ stages:
   jobs:
   - name: Build
     type: builder
-    script: |
-      #!/bin/bash
-      echo 'test commit' > file.txt
-      git commit
-      git push
 - name: DEPLOY
   inputs:
   - type: job
